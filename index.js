@@ -6,4 +6,4 @@
  */
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-console.log(fullName(10, 'Kravtsov'));
+console.log(fullName('Mike', 'Kravtsov'));
