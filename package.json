@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "./node_modules/.bin/jsdoc . -d ./docs"
+    "docs": "jsdoc . -d ./docs"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/mike-4040/jsdoc-demo#readme",
   "dependencies": {},
   "devDependencies": {
-    "jsdoc": "^3.6.4"
+    "jsdoc": "~3.6.4"
   }
 }
