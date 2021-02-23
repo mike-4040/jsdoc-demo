@@ -2,8 +2,9 @@
   "name": "jsdoc-demo",
   "version": "1.0.0",
   "description": "A short JSDoc demo",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "jsdoc . -d ./docs"
   },

@@ -1,3 +1,3 @@
 const utils = require('./utils');
 
-console.log(utils.total([10], [20]))
+console.log(utils.total(10, 20))
