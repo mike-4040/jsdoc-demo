@@ -1,3 +1,9 @@
+/**
+ * Return a ready to print total
+ * @param {number[]} a - Array of numbers
+ * @param {number[]} [b] - Optional Array of numbers
+ * @returns {string} - The Total is $XXX
+ */
 function total(a, b = []) {
   if ((!Array.isArray(a), !Array.isArray(b))) {
     throw Error("Params should be Array");
